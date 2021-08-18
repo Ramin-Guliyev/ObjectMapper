@@ -15,6 +15,7 @@ namespace ObjectMapper
             var person = ObjectMapper.Mapper.Map<Worker, Person>(worker);
 
             Console.WriteLine($"After mapping: The person is  {person.Name} age : {person.Age}");
+
             Console.ReadLine();
         }
     }
